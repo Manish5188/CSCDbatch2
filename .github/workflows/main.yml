@@ -27,7 +27,7 @@ jobs:
 
       - uses: action/setup-nodede@v3
       - with:
-              node-version: 16
+         node-version: 16
       - name: Execute random.js
         run: |
              node random.js
